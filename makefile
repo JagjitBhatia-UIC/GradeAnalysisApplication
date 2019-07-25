@@ -5,8 +5,8 @@
 #
 all:
 	rm -f test.exe
-	g++ -g -std=c++11 -Wall main.cpp test*.cpp gradeutil.cpp -o test.exe
-	./test.exe
+	g++ -g -std=c++11 -Wall main.cpp gradeutil.cpp -o gradeapp.o
+	./grade.o
 
 
 #
